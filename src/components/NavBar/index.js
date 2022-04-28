@@ -9,34 +9,13 @@ const Index = () => {
     <>
       <Navbar bg="dark" variant="dark">
         <Container>
-          <Navbar.Brand href="#home">{t("Welcome to React")}</Navbar.Brand>
+          <Navbar.Brand href="#home">
+            <img src={"src/assets/Drinkiies-Logo_Logo_flat.png"} />
+          </Navbar.Brand>
           <Nav className="me-auto">
-            <Nav.Link href="#home">Company</Nav.Link>
-            <Nav.Link href="#features">Skills</Nav.Link>
-            <Nav.Link href="#pricing">Contact</Nav.Link>
-          </Nav>
-        </Container>
-      </Navbar>
-      <br />
-      <Navbar bg="primary" variant="dark">
-        <Container>
-          <Navbar.Brand href="#home">Navbar</Navbar.Brand>
-          <Nav className="me-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#features">Features</Nav.Link>
-            <Nav.Link href="#pricing">Pricing</Nav.Link>
-          </Nav>
-        </Container>
-      </Navbar>
-
-      <br />
-      <Navbar bg="light" variant="light">
-        <Container>
-          <Navbar.Brand href="#home">Navbar</Navbar.Brand>
-          <Nav className="me-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#features">Features</Nav.Link>
-            <Nav.Link href="#pricing">Pricing</Nav.Link>
+            <Nav.Link href="#home">{t("Company")}</Nav.Link>
+            <Nav.Link href="#features">{t("Skills")}</Nav.Link>
+            <Nav.Link href="#pricing">{t("Contact")}</Nav.Link>
           </Nav>
         </Container>
       </Navbar>
